@@ -7,12 +7,12 @@ html, body{margin:0;overflow:hidden;padding:0;}
 #artist-title{position:absolute;top:92%;left:1%;font-size:14px;font-family:'Roboto', sans-serif;font-weight:800;color:rgba(255, 255, 255, 1);}
 #text-wrapper-black{position:absolute;display:flex;max-height:25%;position:relative;max-width:360px;top:37%;left:25%;}
 #text-left-black, #text-right-black{color:white;font-family:'Roboto', sans-serif;font-size:30px;}
-#text-left-black{text-align:right;will-change: font-size;margin-right:10px;padding-right:30px;overflow:auto;width:50%;border-right:1px solid white;transition-property:font-size;transition-duration:1s;transition-timing-function:ease-out;}
+#text-left-black{text-align:right;will-change: font-size;margin-right:10px;padding-right:25px;overflow:auto;width:50%;border-right:1px solid white;transition-property:font-size;transition-duration:1s;transition-timing-function:ease-out;}
 #text-right-black{text-align:left;will-change: font-size;margin-left:10px;overflow:auto;width:50%;transition-property:font-size;transition-duration:1s;transition-timing-function:ease-in;}
 #lastname{position:absolute;top:78%;left:42%;will-change: transform;color:white;font-size:40px;width:150px;height:40px;font-family:'Roboto', sans-serif;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);font-weight:300;}
 #white{background-color:white;max-width:800px;will-change: width, height;max-height:auto;width:50%;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-name:slidein;animation-name:slidein;}
 #text-wrapper-white{display:flex;position:relative;top:25%;left:25%;flex-direction:column;max-width:350px;max-height:400px;overflow-wrap:break-word;overflow:auto;border-right:1px solid black;}
-h2{font-size:48px;font-family:'Roboto', sans-serif;font-weight:500;will-change: color;color:rgba(85, 85, 85, 1);margin-bottom:0px;transition-property:color;transition-duration:1s;transition-timing-function:ease-out;}
+h2{font-size:44px;font-family:'Roboto', sans-serif;font-weight:500;will-change: color;color:rgba(85, 85, 85, 1);margin-bottom:2%;transition-property:color;transition-duration:1s;transition-timing-function:ease-out;}
 #first-parag, #second-parag, #third-parag, #forth-parag, #fifth-parag, #sixth-parag{font-size:18px;font-family:'Roboto', sans-serif;font-weight:300;color:rgba(45, 45, 45, 1);margin-bottom:0px;padding-right:10px;will-change: font-size;transition-property:font-size;transition-duration:1s;transition-timing-function:ease-in;}
 #name{position:relative;bottom:43%;right:45%;font-size:40px;will-change: transform;color:rgba(5, 5, 5, 1);-webkit-transform:rotate(90deg);transform:rotate(90deg);font-family:'Roboto', sans-serif;font-weight:300;}
 #photo-right{position:relative;left:68%;bottom:-50px;}
