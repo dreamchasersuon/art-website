@@ -29,7 +29,7 @@ figure{display:flex;margin:23% 0 20% 10%;}
 #image:hover{box-shadow:4px 9px 9px 1px rgba(0, 0, 0, 0.6);-webkit-transform:scale(1.8, 1.8);transform:scale(1.8, 1.8);}
 #gallery-wrapper:hover{background-color:rgba(90, 90, 90, 0.8);}
 h3:hover{border-bottom:1px solid rgba(85, 85, 85, 1);color:rgb(85, 85, 85);}
-#first-parag:hover, #second-parag:hover, #third-parag:hover, #forth-parag:hover, #fifth-parag:hover, #sixth-parag:hover, #text-left-black:hover, #text-right-black:hover{font-size:24px;}
+#first-parag:hover, #second-parag:hover, #third-parag:hover, #forth-parag:hover, #fifth-parag:hover, #sixth-parag:hover, #text-left-black:hover, #text-right-black:hover{font-size:1.5em;}
 #text-wrapper-white, #text-wrapper-black{-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-name:slidein;animation-name:slidein;}
 #lastname, #name{transition:4s, 2s, 2s;}
 #lastname:hover{color:rgb(25, 25, 25);}
