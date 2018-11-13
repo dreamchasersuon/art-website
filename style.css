@@ -151,6 +151,9 @@ to{margin-left:0%;width:50%;}
     max-height: 40%;
     display: flex;
   }
+  h2 {
+  	font-size: 46px;
+  }
   h2:hover {
     font-size: 46px;
   }
@@ -189,6 +192,7 @@ to{margin-left:0%;width:50%;}
   }
   #photo-right {
     position: absolute;
+    width: 200px;
   }
   #artist-title {
     position: absolute;
