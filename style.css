@@ -153,7 +153,7 @@ h2 {
 img {max-width: 100%;
 	height: auto;
 }
-#button {
+.button {
 	float:right;
 	position:relative;
 	top:5%;
@@ -172,7 +172,7 @@ img {max-width: 100%;
 	-webkit-animation-delay:2s;
 	animation-delay:2s;
 }
-#close-button {
+.close-button {
 	position:absolute;
 	left:90%;
 	top:5%;
