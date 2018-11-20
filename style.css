@@ -8,6 +8,12 @@ html, body {
 	overflow:hidden;
 	padding:0;
 }
+main {
+	display: flex;
+	position: absolute;
+	opacity: 0.1;
+	background-color: white;
+}
 .black {
 	background-color:rgba(45, 45, 45, 1);
 	max-height:100%;
