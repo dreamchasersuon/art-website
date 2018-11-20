@@ -8,7 +8,7 @@ html, body {
 	overflow:hidden;
 	padding:0;
 }
-#black {
+.black {
 	background-color:rgba(45, 45, 45, 1);
 	max-height:100%;
 	max-width:50%;
@@ -192,7 +192,7 @@ img {max-width: 100%;
 	animation-delay:2s;
 	z-index:99999;
 }
-#gallery {
+.gallery {
 	position:absolute;
 	display:none;
 	max-width:120%;
@@ -202,7 +202,7 @@ img {max-width: 100%;
 	background-color:rgba(25, 25, 25, 0.9);
 	z-index:99999;
 }
-#gallery-wrapper {
+.gallery-wrapper {
 	width:70%;
 	will-change: background-color;
 	transition:background-color;
@@ -217,7 +217,7 @@ img {max-width: 100%;
 	overflow:hidden;
 	overflow-x:auto;
 }
-#gallery-header-wrapper {
+.gallery-header-wrapper {
 	display:flex;
 	justify-content:space-around;
 	position:fixed;
@@ -350,7 +350,7 @@ h3:hover {
     min-height: 768px;
     max-height: auto;
   }
-  
+
   #logo-wrapper {
     width: 20%;
     right: 43%;
@@ -385,7 +385,7 @@ h3:hover {
     font-size: 36px;
     color: rgba(148, 148, 148, 1);
     width: 70%;
-    padding-left: 5%; 
+    padding-left: 5%;
     padding-bottom: 5%;
     transition-duration: 2s;
     transition-property: color;
@@ -412,7 +412,7 @@ h3:hover {
     font-size: 36px;
     color: rgba(78, 78, 78, 1);
   }
-  
+
   #text-wrapper-white {
     position: absolute;
     border-right: 1px solid rgba(78, 178, 78, 1);
