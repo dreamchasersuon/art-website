@@ -1,7 +1,7 @@
 const closeGallery = () => {
-	let button = document.getElementById('close-button');
+	let button = document.getElementsByClassName('close-button');
 	button.onclick = () => {
-		document.getElementById('gallery').style.display = 'none';
+		document.getElementsByClassName('gallery').style.display = 'none';
 	}
 }
 
