@@ -140,7 +140,7 @@ main {
 	color: rgba(148, 148, 148, 1);
 	transform: rotate(90deg);
 	text-transform: uppercase;
-	background-image: url(https://media.giphy.com/media/3o7bud4Ujk6S6MrKGQ/giphy.gif);
+	background-image: url(src/scroll-back.mp4);
 	background-size: cover;
 	color: transparent;
 	-moz-background-clip: text;
