@@ -131,16 +131,20 @@ main {
 	border-right:1px solid rgba(78, 178, 78, 1);
 }
 .scroll-pointer {
-	position: relative;
-	font-size:18px;
-	font-family:'Roboto', sans-serif;
-	font-weight:300;
-	color:rgba(148, 148, 148, 1);
+	position: absolute;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	color: rgba(148, 148, 148, 1);
 	transform: rotate(90deg);
 	text-transform: uppercase;
-	left: 64%;
-top: 55%;
-height: 3vh;
+	left: 82%;
+	top: 60%;
+	background-image: url(https://media.giphy.com/media/3o7bud4Ujk6S6MrKGQ/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
 }
 h2 {
 	font-size:44px;
