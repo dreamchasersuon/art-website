@@ -129,9 +129,10 @@ main {
 	overflow-wrap:break-word;
 	overflow:auto;
 	border-right:1px solid rgba(78, 178, 78, 1);
+	margin-left: 10vh;
 }
 .scroll-pointer {
-	position: absolute;
+	position: relative;
 	display: flex;
 	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
@@ -146,6 +147,9 @@ main {
 	color: transparent;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
+	height: 3vh;
+	align-self: center;
+	margin-left: -25vh;
 }
 h2 {
 	font-size:44px;
