@@ -138,6 +138,8 @@ main {
 	color:rgba(148, 148, 148, 1);
 	transform: rotate(90deg);
 	text-transform: uppercase;
+	left: 76%;
+	top: 55%;
 }
 h2 {
 	font-size:44px;
