@@ -140,8 +140,6 @@ main {
 	color: rgba(148, 148, 148, 1);
 	transform: rotate(90deg);
 	text-transform: uppercase;
-	left: 82%;
-	top: 60%;
 	background-image: url(https://media.giphy.com/media/3o7bud4Ujk6S6MrKGQ/giphy.gif);
 	background-size: cover;
 	color: transparent;
