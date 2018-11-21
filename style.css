@@ -19,6 +19,10 @@ main {
 	height: 100%;
 	flex-flow: row wrap;
 }
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
 .button-wrapper {
     display: flex;
     flex-direction: row-reverse;
