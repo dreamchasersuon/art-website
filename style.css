@@ -131,15 +131,16 @@ main {
 	border-right:1px solid rgba(78, 178, 78, 1);
 }
 .scroll-pointer {
-	position: absolute;
-	font-size:24px;
+	position: relative;
+	font-size:18px;
 	font-family:'Roboto', sans-serif;
 	font-weight:300;
 	color:rgba(148, 148, 148, 1);
 	transform: rotate(90deg);
 	text-transform: uppercase;
-	left: 76%;
-	top: 55%;
+	left: 64%;
+top: 55%;
+height: 3vh;
 }
 h2 {
 	font-size:44px;
