@@ -1,7 +1,7 @@
 const onClickButton = () => {
-	let button = document.getElementById('button');
+	let button = document.getElementsByClassName('button')[0];
 	button.onclick = () => {
-		document.getElementById('gallery').style.display = 'flex';
+		document.getElementsByClassName('gallery')[0].style.display = 'flex';
 	}
 }
 
