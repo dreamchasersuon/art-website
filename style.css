@@ -333,7 +333,7 @@ h3:hover {
 	{margin-left:10vh;
 	width:100vh;}
 	to
-	{margin-left:0vh;
+	{margin-left:15vh;
 	width:50vh;}
 }
 @-webkit-keyframes shadow-pulse{0%{box-shadow:0 0 0 0px rgba(255, 255, 255, 0.6);}
