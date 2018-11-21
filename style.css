@@ -140,7 +140,7 @@ main {
 	color: rgba(148, 148, 148, 1);
 	transform: rotate(90deg);
 	text-transform: uppercase;
-	background-image: url(src/scroll-back.mp4);
+	background-image: url(src/scroll-back.gif);
 	background-size: cover;
 	color: transparent;
 	-moz-background-clip: text;
