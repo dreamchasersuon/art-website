@@ -124,11 +124,20 @@ main {
 	display:flex;
 	position:relative;
 	flex-direction:column;
-	max-width:350px;
-	max-height:400px;
+	max-width:45vh;
+	max-height:50vh;
 	overflow-wrap:break-word;
 	overflow:auto;
 	border-right:1px solid rgba(78, 178, 78, 1);
+}
+.scroll-pointer {
+	position: absolute;
+	font-size:24px;
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	color:rgba(148, 148, 148, 1);
+	transform: rotate(90deg);
+	text-transform: uppercase;
 }
 h2 {
 	font-size:44px;
