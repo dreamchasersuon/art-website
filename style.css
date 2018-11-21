@@ -301,12 +301,6 @@ h3:hover {
 	border-bottom:1px solid rgba(85, 85, 85, 1);
 	color:rgb(85, 85, 85);
 }
-/*.text-wrapper-white, .text-wrapper-black {
-	-webkit-animation-duration:3s;
-	animation-duration:3s;
-	-webkit-animation-name:slidein;
-	animation-name:slidein;
-}*/
 .lastname, .name {
 	transition:4s, 2s, 2s;
 }
@@ -319,7 +313,7 @@ h3:hover {
 @-webkit-keyframes slidein
 {
 	from
-	{margin-left:10%;
+	{margin-left:40%;
 	width:100%;}
 	to
 	{margin-left:0%;
