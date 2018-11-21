@@ -330,20 +330,11 @@ h3:hover {
 @-webkit-keyframes slidein
 {
 	from
-	{margin-left:10%;
-	width:100%;}
+	{margin-left:10vh;
+	width:100vh;}
 	to
-	{margin-left:0%;
-	width:50%;}
-}
-@keyframes slidein
-{
-	from
-	{margin-left:10%;
-	width:100%;}
-	to
-	{margin-left:0%;
-	width:50%;}
+	{margin-left:0vh;
+	width:50vh;}
 }
 @-webkit-keyframes shadow-pulse{0%{box-shadow:0 0 0 0px rgba(255, 255, 255, 0.6);}
 25%{box-shadow:0 0 0 10px rgba(40, 165, 75, 0.5);}
