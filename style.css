@@ -132,6 +132,7 @@ main {
 }
 .scroll-pointer {
 	position: absolute;
+	display: flex;
 	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
