@@ -65,29 +65,21 @@ main {
 .text-left-black, .text-right-black {
 	color:white;
 	font-family:'Roboto', sans-serif;
-	font-size:30px;
+	font-size:1.7em;
 }
 .text-left-black {
 	text-align:right;
-	will-change: font-size;
 	margin-right:10px;
 	padding-right:25px;
 	overflow:auto;
 	width:50%;
 	border-right:1px solid rgba(78, 178, 78, 1);
-	transition-property:font-size;
-	transition-duration:1s;
-	transition-timing-function:ease-out;
 }
 .text-right-black {
 	text-align:left;
-	will-change: font-size;
 	margin-left:10px;
 	overflow:auto;
 	width:50%;
-	transition-property:font-size;
-	transition-duration:1s;
-	transition-timing-function:ease-in;
 }
 .name {
 	position: relative;
@@ -165,16 +157,12 @@ h2 {
 	transition-timing-function:ease-out;
 }
 .first-parag, .second-parag, .third-parag, .forth-parag, .fifth-parag, .sixth-parag {
-	font-size:1.2em;
+	font-size:1.5em;
 	font-family:'Roboto', sans-serif;
 	font-weight:300;
 	color:rgba(45, 45, 45, 1);
 	margin-bottom:0px;
 	padding-right:10px;
-	will-change: font-size;
-	transition-property:font-size;
-	transition-duration:1s;
-	transition-timing-function:ease-in;
 }
 .photo {
 	position: absolute;
@@ -312,12 +300,6 @@ figure {
 h3:hover {
 	border-bottom:1px solid rgba(85, 85, 85, 1);
 	color:rgb(85, 85, 85);
-}
-.first-parag:hover, .second-parag:hover, .third-parag:hover, .forth-parag:hover, .fifth-parag:hover, .sixth-parag:hover {
-	font-size:1.7em;
-}
-.text-left-black:hover, .text-right-black:hover {
-	font-size: 1.2em;
 }
 .text-wrapper-white, .text-wrapper-black {
 	-webkit-animation-duration:3s;
