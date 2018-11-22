@@ -1,8 +1,6 @@
 
 body{
 	display:flex;
-	/*! height:100%; */
-	/*! width: 100%; */
 }
 html, body {
 	margin:0;
@@ -18,10 +16,6 @@ main {
 	justify-content: space-evenly;
 	height: 100%;
 	flex-flow: row wrap;
-}
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
 }
 .button-wrapper {
     display: flex;
@@ -129,25 +123,6 @@ main {
 	overflow:auto;
 	border-right:1px solid rgba(78, 178, 78, 1);
 	margin-left: 10vh;
-}
-.scroll-pointer {
-	position: relative;
-	display: flex;
-	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 600;
-	color: rgba(148, 148, 148, 1);
-	transform: rotate(90deg);
-	text-transform: uppercase;
-	background-image: url(src/scroll-back.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	height: 3vh;
-	align-self: center;
-	margin-left: -25vh;
-	cursor: vertical-text;
 }
 h2 {
 	font-size:44px;
