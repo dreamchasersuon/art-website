@@ -1,4 +1,4 @@
-const imageOnClick = () => {
+module.exports = () => {
   let img = document.getElementByTagName("image")[0];
   let att = document.createAttribute("class");
   att.value = "image";
@@ -6,5 +6,3 @@ const imageOnClick = () => {
     img.setAttributeNode(att);
   }
 }
-
-imageOnClick();
