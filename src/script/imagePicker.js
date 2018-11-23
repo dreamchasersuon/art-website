@@ -1,5 +1,5 @@
-module.exports = () => {
-  let img = document.getElementByTagName("image")[0];
+export default function imagePicker () {
+  let img = document.getElementsByTagName("image")[0];
   let att = document.createAttribute("class");
   att.value = "image";
   img.onclick = () => {

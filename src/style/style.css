@@ -34,7 +34,7 @@ main {
 .black {
 	background-color:rgba(45, 45, 45, 1);
 	width: 50%;
-	min-height: 47em;
+	height: 1000px;
 	display: flex;
 }
 .logo-wrapper {

@@ -1,4 +1,4 @@
-module.exports = () => {
+export default function pickerWheel () {
 	let art = document.getElementsByClassName('photo-select-three')[0],
 		oil = document.getElementsByClassName('photo-select-one')[0],
 		graph = document.getElementsByClassName('photo-select-two')[0];
