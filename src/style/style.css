@@ -254,13 +254,14 @@ h3 {
 .select-block {
 	color:rgb(85, 85, 85);
 }
-.Nav-ItemGraphics_hovered {
+.GalleryWrapper-ItemGraphics {
 	display:flex;
+	top: -10%;
 	position:relative;
 	justify-content:space-around;
 	width:100%;
 }
-.Nav-ItemHandMade {
+.GalleryWrapper-ItemArt {
 	display:none;
 	justify-content:space-between;
 }

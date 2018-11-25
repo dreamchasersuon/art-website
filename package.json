@@ -4,9 +4,8 @@
   "description": "Website for a Contemporary Moscow Artist - Konstantin Rudenko",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config dev.webpack.config.js",
-    "build": "webpack --config pro.webpack.config.js",
-    "start": "webpack-dev-server --open"
+    "dev": "webpack-dev-server --mode development --config dev.webpack.config.js",
+    "prod": "webpack --mode production --config pro.webpack.config.js"
   },
   "repository": {
     "type": "git",

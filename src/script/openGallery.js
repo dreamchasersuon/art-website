@@ -1,6 +1,6 @@
 export default function openGallery () {
-	let button = document.getElementsByClassName('button')[0];
+	let button = document.getElementsByClassName('Button_opened')[0];
 	button.onclick = () => {
-		document.getElementsByClassName('gallery')[0].style.display = 'flex';
+		document.getElementsByClassName('Gallery')[0].style.display = 'flex';
 	}
 }
