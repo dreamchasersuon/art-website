@@ -15,10 +15,11 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: path.join(__dirname, './dist/dev'),
-    filename: 'index.html',
+    contentBase: './dist',
     hot: true
   },
+
+
   plugins: [
     new CleanWebpackPlugin(['./dist/dev']),
     new HtmlWebpackPlugin({
@@ -42,8 +43,7 @@ module.exports = {
     {
       test: /\.css$/,
       use: [ 'style-loader', 'css-loader' ]
-    },
-
+    }
   ]
 }
 };

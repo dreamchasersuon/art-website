@@ -17,11 +17,11 @@ main {
 	height: 100%;
 	flex-flow: row wrap;
 }
-.button-wrapper {
+.AdjustPosition-Button_wrapper {
     display: flex;
     flex-direction: row-reverse;
 }
-.main-section-wrapper {
+.MainGroup-AboutInfo_wrapper {
 	display: flex;
 	max-height: 50%;
 	min-width: 15%;
@@ -31,19 +31,19 @@ main {
 	width: 130vh;
 	margin-top: -15vh;
 }
-.black {
+.BodyDivisor_black {
 	background-color:rgba(45, 45, 45, 1);
 	width: 50%;
 	height: 1000px;
 	display: flex;
 }
-.logo-wrapper {
+.Nav-SocialMedia_wrapper {
 	display:flex;
 	width:100%;
 	height: 3em;
 	justify-content: space-around;
 }
-.artist-title {
+.BodyDivisorBlack-TextItem_title {
 	position:absolute;
 	top:92%;
 	left:1%;
@@ -53,19 +53,19 @@ main {
 	color:rgba(255, 255, 255, 1);
 	cursor: text;
 }
-.text-wrapper-black {
+.AboutInfo-ArticleBlackSide_wrapper {
 	display: flex;
 	max-height: 25vh;
 	position: relative;
 	max-width: 360px;
 	align-self: center;
 }
-.text-left-black, .text-right-black {
+.ArticleBlackSide-TextItem_left, .ArticleBlackSide-TextItem_right {
 	color:white;
 	font-family:'Roboto', sans-serif;
 	font-size:1.7em;
 }
-.text-left-black {
+.ArticleBlackSide-TextItem_left {
 	text-align:right;
 	margin-right:10px;
 	padding-right:25px;
@@ -73,13 +73,13 @@ main {
 	width:50%;
 	border-right:1px solid rgba(78, 178, 78, 1);
 }
-.text-right-black {
+.ArticleBlackSide-TextItem_right {
 	text-align:left;
 	margin-left:10px;
 	overflow:auto;
 	width:50%;
 }
-.name {
+.InitialsLogo-Name {
 	position: relative;
 	font-size: 2.5em;
 	color: rgba(45, 45, 45, 1);
@@ -90,7 +90,7 @@ main {
 	margin: 0;
 	cursor: default;
 }
-.lastname {
+.InitialsLogo-Surname {
 	color: white;
 	background-color: rgba(78, 178, 78, 1);
 	font-size: 2.5em;
@@ -104,7 +104,7 @@ main {
 	margin-top: 1%;
 	cursor: default;
 }
-.white {
+.BodyDivisor_white {
 	background-color:white;
 	-webkit-animation-duration:3s;
 	animation-duration:3s;
@@ -113,7 +113,7 @@ main {
 	width: 50%;
 	display: flex;
 }
-.text-wrapper-white {
+.AboutInfo-ArticleWhiteSide_wrapper {
 	display:flex;
 	position:relative;
 	flex-direction:column;
@@ -135,7 +135,7 @@ h2 {
 	transition-duration:1s;
 	transition-timing-function:ease-out;
 }
-.first-parag, .second-parag, .third-parag, .forth-parag, .fifth-parag, .sixth-parag {
+p {
 	font-size:1.5em;
 	font-family:'Roboto', sans-serif;
 	font-weight:300;
@@ -143,21 +143,21 @@ h2 {
 	margin-bottom:0px;
 	padding-right:10px;
 }
-.photo {
+.BodyDivisorWhite-PhotoItem_wrapper {
 	position: absolute;
 	top: 85%;
 	left: 85%;
 	z-index: 99998;
 	transition: all 2s 200ms cubic-bezier(0.86, 0, 0.07, 1);
 }
-.photo:hover {
+.BodyDivisorWhite-PhotoItem_wrapper:hover {
 	transform: translateY(-60px);
 }
 img {
 	max-width: 100%;
 	height: auto;
 }
-.button {
+.Button_opened {
 	position:relative;
 	width:100px;
 	height:100px;
@@ -175,11 +175,11 @@ img {
 	transition: all 5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	cursor: pointer;
 }
-.button:hover {
+.Button_opened:hover {
 	color: rgba(165, 108, 40, 0.8);
 	background-color: rgba(40, 127, 165, 0.4);
 }
-.close-button {
+.Gallery-Button_closed {
 	position:absolute;
 	left:90%;
 	top:5%;
@@ -200,7 +200,7 @@ img {
 	z-index:99999;
 	cursor: pointer;
 }
-.gallery {
+.Gallery {
 	position:absolute;
 	display:none;
 	max-width:120%;
@@ -210,7 +210,7 @@ img {
 	background-color:rgba(25, 25, 25, 0.9);
 	z-index:99999;
 }
-.gallery-wrapper {
+.Gallery-GalleryWrapper {
 	width:70%;
 	will-change: background-color;
 	transition:background-color;
@@ -225,7 +225,7 @@ img {
 	overflow:hidden;
 	overflow-x:auto;
 }
-.gallery-header-wrapper {
+.GalleryWrapper-Nav {
 	display:flex;
 	justify-content:space-around;
 	position:fixed;
@@ -254,39 +254,35 @@ h3 {
 .select-block {
 	color:rgb(85, 85, 85);
 }
-.graphics-block {
+.Nav-ItemGraphics_hovered {
 	display:flex;
 	position:relative;
 	justify-content:space-around;
 	width:100%;
 }
-.art-block {
+.Nav-ItemHandMade {
 	display:none;
 	justify-content:space-between;
 }
-figure {
-	display:flex;
-	margin:23% 0 20% 10%;
-}
-.image:hover {
+.GalleryWrapper-ItemImage_graphics:hover, .GalleryWrapper-ItemImage_handMade:hover {
 	box-shadow:4px 9px 9px 1px rgba(0, 0, 0, 0.6);
 	-webkit-transform:scale(1.8, 1.8);
 	transform:scale(1.8, 1.8);
 }
-.gallery-wrapper:hover {
+.Gallery-GalleryWrapper:hover {
 	background-color:rgba(90, 90, 90, 0.8);
 }
 h3:hover {
 	border-bottom:1px solid rgba(85, 85, 85, 1);
 	color:rgb(85, 85, 85);
 }
-.lastname, .name {
+.InitialsLogo-Surname, .InitialsLogo-Name {
 	transition:4s, 2s, 2s;
 }
-.lastname:hover {
+.InitialsLogo-Surname:hover {
 	color:rgba(45, 45, 45, 1);
 }
-.name:hover {
+.InitialsLogo-Name:hover {
 	color:white;
 }
 @-webkit-keyframes slidein
@@ -319,24 +315,24 @@ h3:hover {
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  .white, .black {
+  .BodyDivisor_white, .BodyDivisor_black {
     min-height: 768px;
     max-height: auto;
   }
 
-  .logo-wrapper {
+  .Nav-SocialMedia_wrapper {
     width: 20%;
     right: 43%;
     top: 91%;
     height: 7%;
     position: absolute;
   }
-  .button {
+  .Button_opened {
     top: 6%;
     position: absolute;
     left: 77%;
   }
-  .text-wrapper-black {
+  .AboutInfo-ArticleBlackSide_wrapper {
     position: absolute;
     display: flex;
     justify-content: space-around;
@@ -350,7 +346,7 @@ h3:hover {
     overflow: auto;
 
   }
-  .text-left-black {
+  .ArticleBlackSide-TextItem_left {
     border-left: 1px solid rgba(78, 178, 78, 1);
     border-right: 0;
     display: flex;
@@ -364,7 +360,7 @@ h3:hover {
     transition-property: color;
     transition-timing-function: ease-out;
   }
-  .text-right-black {
+  .ArticleBlackSide-TextItem_right {
     display: flex;
     width: 70%;
     text-align: right;
@@ -377,16 +373,16 @@ h3:hover {
     transition-property: color;
     transition-timing-function: ease-out;
   }
-  .text-left-black:hover {
+  .ArticleBlackSide-TextItem_left:hover {
     font-size: 36px;
     color: rgba(78, 78, 78, 1);
   }
-  .text-right-black:hover {
+  .ArticleBlackSide-TextItem_right:hover {
     font-size: 36px;
     color: rgba(78, 78, 78, 1);
   }
 
-  .text-wrapper-white {
+  .AboutInfo-ArticleWhiteSide_wrapper {
     position: absolute;
     border-right: 1px solid rgba(78, 178, 78, 1);
     left: 58%;
@@ -403,21 +399,21 @@ h3:hover {
   h2:hover {
     font-size: 46px;
   }
-  .first-parag, .second-parag, .third-parag, .forth-parag, .fifth-parag, .sixth-parag {
+  p {
     font-size: 24px;
   }
-  .first-parag:hover, .second-parag:hover, .third-parag:hover, .forth-parag:hover, .fifth-parag:hover, .sixth-parag:hover {
+  p:hover {
     font-size: 24px;
   }
-  .first-head {
+  .BioSection-SectionHeader_first {
     margin-top: 0;
   }
-  .lastname, .name {
+  .InitialsLogo-Surname, .InitialsLogo-Name {
     display: flex;
     font-size: 40px;
     position: absolute;
   }
-  .name {
+  .InitialsLogo-Name {
     max-width: 30%;
     min-width: 30%;
     color: rgba(55, 55, 55, 1);
@@ -427,7 +423,7 @@ h3:hover {
     background-color: rgba(78, 178, 78, 1);
     max-height: 5%;
   }
-  .lastname {
+  .InitialsLogo-Surname {
     max-width: 30%;
     min-width: 30%;
     left: 15%;
@@ -436,11 +432,11 @@ h3:hover {
     transform: rotate(0deg);
     top: 5%;
   }
-  .photo-right {
+  .BodyDivisorWhite-PhotoItem_wrapper {
     position: absolute;
     width: 200px;
   }
-  .artist-title {
+  .BodyDivisorBlack-TextItem_title {
     position: absolute;
     display: flex;
     left: 7%;
@@ -453,7 +449,7 @@ h3:hover {
   path:hover {
     fill: rgba(78, 178, 78, 1);
   }
-  .close-button {
+  .Gallery-Button_closed {
     position: absolute;
     left: 80%;
     top: 7%;

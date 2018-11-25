@@ -2,7 +2,7 @@
   "name": "art-website",
   "version": "1.0.0",
   "description": "Website for a Contemporary Moscow Artist - Konstantin Rudenko",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "dev": "webpack --config dev.webpack.config.js",
     "build": "webpack --config pro.webpack.config.js",
