@@ -16,13 +16,11 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: path.join(__dirname, './dist'),
-    compress: true,
-    port: 80,
     hot: true,
   },
 
   plugins: [
-    new CleanWebpackPlugin(['./dist/dev']),
+    new CleanWebpackPlugin(['./dist/dev/']),
     new HtmlWebpackPlugin({
       title: 'Konstantin Rudenko - contemporary Russian Artist, Moscow',
       template: 'src/template-html/home.html',
