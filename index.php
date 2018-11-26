@@ -1,1 +1,1 @@
-<?php header( 'Location: ./dist/home.html' ) ; ?>
+<?php header( 'Location: ../../dist/home.html' ) ; ?>
