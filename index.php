@@ -1,1 +1,1 @@
-<?php header( 'Location: ~/dist/dev/index.html' ) ; ?>
+<?php header( 'Location: dist/dev/index.html' ) ; ?>
