@@ -15,7 +15,7 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: path.join(__dirname, './dist/dev'),
+    contentBase: path.resolve(__dirname, './dist/dev'),
     hot: true,
     filename: 'index.html'
   },

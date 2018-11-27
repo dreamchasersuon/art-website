@@ -1,6 +1,9 @@
 export default function closeGallery () {
-	let button = document.getElementsByClassName('Gallery-Button_closed')[0];
+	let button = document.getElementsByClassName('Gallery-Button_closed')[0],
+			background = document.getElementsByClassName('BodyDivisorBlack-MainGroup')[0],
+			gallery = document.getElementsByClassName('Gallery')[0];
 	button.onclick = () => {
-		document.getElementsByClassName('Gallery')[0].style.display = 'none';
+		gallery.style.display = 'none';
+		background.style.filter = 'none';
 	}
 }

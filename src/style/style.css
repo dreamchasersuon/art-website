@@ -176,14 +176,10 @@ img {
 	cursor: pointer;
 }
 .Button_opened:hover {
-	color: rgba(165, 108, 40, 0.8);
 	background-color: rgba(40, 127, 165, 0.4);
 }
 .Gallery-Button_closed {
-	position:absolute;
-	left:90%;
-	top:5%;
-	margin:0px 30px 80px 0px;
+	position:relative;
 	width:100px;
 	height:100px;
 	font:20px/100px 'Roboto', sans-serif;
@@ -197,85 +193,14 @@ img {
 	animation:shadow-white 3s infinite;
 	-webkit-animation-delay:2s;
 	animation-delay:2s;
-	z-index:99999;
 	cursor: pointer;
 }
 .Gallery {
 	position:absolute;
 	display:none;
-	max-width:120%;
-	width:100%;
-	height:110%;
-	max-height:110%;
-	background-color:rgba(25, 25, 25, 0.9);
+	width: 125vmax;
+	background-color:rgba(25, 25, 25, 1);
 	z-index:99999;
-}
-.Gallery-GalleryWrapper {
-	width:70%;
-	will-change: background-color;
-	transition:background-color;
-	transition-timing-function:ease-in;
-	transition-duration:2s;
-	margin:auto;
-	border-radius:12px;
-	background-color:rgba(45, 45, 45, 0.8);
-	position:relative;
-	height:70%;
-	max-height:100%;
-	overflow:hidden;
-	overflow-x:auto;
-}
-.GalleryWrapper-Nav {
-	display:flex;
-	justify-content:space-around;
-	position:fixed;
-	width:70%;
-	border-radius:12px;
-	height:auto;
-	border-bottom:rgba(55, 55, 55, 1);
-	background-color:rgba(45, 45, 45, 1);
-	max-height:20%;
-	z-index:99998;
-}
-h3 {
-	font-size:36px;
-	will-change: color;
-	font-family:'Roboto', sans-serif;
-	font-weight:500;
-	bottom:10%;
-	position:relative;
-	display:flex;
-	color:white;
-	transition:color;
-	transition-duration:1s;
-	transition-timing-function:ease-out;
-	cursor: pointer;
-}
-.select-block {
-	color:rgb(85, 85, 85);
-}
-.GalleryWrapper-ItemGraphics {
-	display:flex;
-	top: -10%;
-	position:relative;
-	justify-content:space-around;
-	width:100%;
-}
-.GalleryWrapper-ItemArt {
-	display:none;
-	justify-content:space-between;
-}
-.GalleryWrapper-ItemImage_graphics:hover, .GalleryWrapper-ItemImage_handMade:hover {
-	box-shadow:4px 9px 9px 1px rgba(0, 0, 0, 0.6);
-	-webkit-transform:scale(1.8, 1.8);
-	transform:scale(1.8, 1.8);
-}
-.Gallery-GalleryWrapper:hover {
-	background-color:rgba(90, 90, 90, 0.8);
-}
-h3:hover {
-	border-bottom:1px solid rgba(85, 85, 85, 1);
-	color:rgb(85, 85, 85);
 }
 .InitialsLogo-Surname, .InitialsLogo-Name {
 	transition:4s, 2s, 2s;
