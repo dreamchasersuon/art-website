@@ -2,33 +2,34 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
-const Visualizer = require('webpack-visualizer-plugin');
 
 module.exports = {
   mode: 'development',
+
   entry: {
     dev: './src/index.js'
   },
   output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, './dist/dev')
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, './dist/dev'),
+    publicPath: 'http://localhost:8080/dist/dev/'
   },
   devtool: 'inline-source-map',
+
   devServer: {
-    contentBase: path.resolve(__dirname, './dist/dev'),
-    hot: true,
-    filename: 'index.html'
+    contentBase: path.join(__dirname, 'dev'),
+    compress: true,
+    port: 9000
   },
 
   plugins: [
-    new CleanWebpackPlugin(['./dist/dev/']),
+    new CleanWebpackPlugin(['./dist/dev']),
     new HtmlWebpackPlugin({
       title: 'Konstantin Rudenko - contemporary Russian Artist, Moscow',
       template: 'src/template-html/home.html',
       inject: 'body'
     }),
-    new webpack.HotModuleReplacementPlugin(),
-    new Visualizer()
+    new webpack.HotModuleReplacementPlugin()
   ],
 
   module: {
