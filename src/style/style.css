@@ -251,6 +251,7 @@ img {
 	background:rgba(40, 127, 165, 0.4);
 	border-radius:50%;
 	cursor: pointer;
+	transition: all 600ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
 }
 .Button_opened:hover {
 	background-color: rgba(215, 215, 215, 1);
@@ -276,6 +277,7 @@ img {
 	cursor: pointer;
 	margin-right: 50vmin;
 	align-self: center;
+	transition: all 600ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
 }
 .Gallery {
 	position:absolute;
