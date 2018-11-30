@@ -25,7 +25,6 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['./dist/dev']),
     new HtmlWebpackPlugin({
-      title: 'Konstantin Rudenko - contemporary Russian Artist, Moscow',
       template: 'src/template-html/home.html',
       inject: 'body'
     }),
