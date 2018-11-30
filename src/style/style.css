@@ -40,6 +40,11 @@ main {
 	left: 18vmin;
 	align-items: center;
 	width: 100%;
+	-webkit-animation-duration:3s;
+	animation-duration:3s;
+	-webkit-animation-name:slide;
+	animation-name:slide;
+	animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .Gallery-SliderPreview {
 	position: relative;
@@ -249,7 +254,6 @@ img {
 	animation:shadow-pulse 3s infinite;
 	-webkit-animation-delay:6s;
 	animation-delay:6s;
-	transition: all 5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	cursor: pointer;
 }
 .Button_opened:hover {
@@ -266,10 +270,10 @@ img {
 	text-align:center;
 	background:rgba(25, 25, 25, 1);
 	border-radius:50%;
-	-webkit-animation:shadow-white 6s infinite;
-	animation:shadow-white 6s infinite;
-	-webkit-animation-delay:10s;
-	animation-delay:10s;
+	-webkit-animation:shadow-white 10s infinite;
+	animation:shadow-white 10s infinite;
+	-webkit-animation-delay:15s;
+	animation-delay:15s;
 	cursor: pointer;
 	margin-right: 50vmin;
 	align-self: center;
@@ -291,6 +295,7 @@ img {
 .InitialsLogo-Name:hover {
 	color:white;
 }
+
 @-webkit-keyframes slidein
 {
 	from
@@ -300,25 +305,43 @@ img {
 	{margin-left:0%;
 	width:50%;}
 }
+@-webkit-keyframes slide {
+	from {
+		margin-left: 70%;
+		width: 50%;
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
 @-webkit-keyframes shadow-pulse{
 0% {
 		transform: scale(1, 1);
 		opacity: 1;
 	}
-100%{
-	transform: scale(3, 3);
-	opacity: 0;
+50%{
+	transform: scale(2, 2);
+	opacity: 0.5;
 	}
+	100%{
+		transform: scale(1, 1);
+		opacity: 1;
+		}
 }
 @-webkit-keyframes shadow-white{
 	0%{
 		transform: scale(1, 1);
 		opacity: 1;
 	}
-100%{
-	transform: scale(2, 2);
-	opacity: 0;
+  50%{
+	transform: scale(0.5, 0.5);
+	opacity: 0.5;
 	}
+	100%{
+		transform: scale(1, 1);
+		opacity: 1;
+		}
 }
 @media screen and (max-width: 768px) {
    .lastname, .name, .photo-right,.text-wrapper-black, .text-wrapper-white {
