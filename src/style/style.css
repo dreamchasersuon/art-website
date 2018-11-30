@@ -248,16 +248,19 @@ img {
 	letter-spacing:1px;
 	color:black;
 	text-align:center;
-	background:rgba(255, 255, 255, 0.6);
+	background:rgba(40, 127, 165, 0.4);
 	border-radius:50%;
-	-webkit-animation:shadow-pulse 3s infinite;
-	animation:shadow-pulse 3s infinite;
-	-webkit-animation-delay:6s;
-	animation-delay:6s;
 	cursor: pointer;
 }
 .Button_opened:hover {
-	background-color: rgba(40, 127, 165, 0.4);
+	background-color: rgba(215, 215, 215, 1);
+	transform: scale(1.5, 1.5);
+	opacity: 0.5;
+}
+.Gallery-Button_closed:hover {
+	background-color: rgba(15, 15, 15, 1);
+	transform: scale(0.5, 0.5);
+	opacity: 0.5;
 }
 .Gallery-Button_closed {
 	position:relative;
@@ -270,10 +273,6 @@ img {
 	text-align:center;
 	background:rgba(25, 25, 25, 1);
 	border-radius:50%;
-	-webkit-animation:shadow-white 10s infinite;
-	animation:shadow-white 10s infinite;
-	-webkit-animation-delay:15s;
-	animation-delay:15s;
 	cursor: pointer;
 	margin-right: 50vmin;
 	align-self: center;
@@ -314,34 +313,6 @@ img {
 		margin-left: 0%;
 		width: 100%;
 	}
-}
-@-webkit-keyframes shadow-pulse{
-0% {
-		transform: scale(1, 1);
-		opacity: 1;
-	}
-50%{
-	transform: scale(2, 2);
-	opacity: 0.5;
-	}
-	100%{
-		transform: scale(1, 1);
-		opacity: 1;
-		}
-}
-@-webkit-keyframes shadow-white{
-	0%{
-		transform: scale(1, 1);
-		opacity: 1;
-	}
-  50%{
-	transform: scale(0.5, 0.5);
-	opacity: 0.5;
-	}
-	100%{
-		transform: scale(1, 1);
-		opacity: 1;
-		}
 }
 @media screen and (max-width: 768px) {
    .lastname, .name, .photo-right,.text-wrapper-black, .text-wrapper-white {

@@ -10,4 +10,5 @@ window.onload = () => {
   selectItem();
   galleryWrapLeft();
   galleryWrapRight();
+  isEqualImage();
 }
