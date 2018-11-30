@@ -173,7 +173,7 @@ main {
 	cursor: default;
 }
 .InitialsLogo-Surname {
-	color: white;
+	color: rgba(45, 45, 45, 1);
 	background-color: rgba(78, 178, 78, 1);
 	font-size: 2.5em;
 	height: 1em;
