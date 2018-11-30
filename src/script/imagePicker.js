@@ -39,7 +39,9 @@ const featureImages = [
 	'../../src/img/big/graphics33.jpg',
 	'../../src/img/big/graphics34.jpg',
 	'../../src/img/big/graphics35.jpg',
-	'../../src/img/big/graphics36.jpg'
+	'../../src/img/big/graphics36.jpg',
+	'../../src/img/big/graphics37.jpg',
+	'../../src/img/big/graphics38.jpg'
 ];
 const images = [
 	'../../src/img/small/graphics1.jpg',
@@ -77,7 +79,53 @@ const images = [
 	'../../src/img/small/graphics33.jpg',
 	'../../src/img/small/graphics34.jpg',
 	'../../src/img/small/graphics35.jpg',
-	'../../src/img/small/graphics36.jpg'
+	'../../src/img/small/graphics36.jpg',
+	'../../src/img/small/graphics37.jpg',
+	'../../src/img/small/graphics38.jpg'
+];
+const imagesHandMade = [
+	'../../src/img/small/handMade1.jpg',
+	'../../src/img/small/handMade2.jpg',
+	'../../src/img/small/handMade3.jpg',
+	'../../src/img/small/handMade4.jpg',
+	'../../src/img/small/handMade5.jpg',
+	'../../src/img/small/handMade6.jpg',
+	'../../src/img/small/handMade7.jpg',
+	'../../src/img/small/handMade8.jpg',
+	'../../src/img/small/handMade9.jpg',
+	'../../src/img/small/handMade10.jpg',
+	'../../src/img/small/handMade11.jpg',
+	'../../src/img/small/handMade12.jpg',
+	'../../src/img/small/handMade13.jpg',
+	'../../src/img/small/handMade14.jpg',
+	'../../src/img/small/handMade15.jpg',
+	'../../src/img/small/handMade16.jpg',
+	'../../src/img/small/handMade17.jpg',
+	'../../src/img/small/handMade18.jpg',
+	'../../src/img/small/handMade19.jpg',
+	'../../src/img/small/handMade20.jpg'
+];
+const featureImagesHandMade = [
+	'../../src/img/big/handMade1.jpg',
+	'../../src/img/big/handMade2.jpg',
+	'../../src/img/big/handMade3.jpg',
+	'../../src/img/big/handMade4.jpg',
+	'../../src/img/big/handMade5.jpg',
+	'../../src/img/big/handMade6.jpg',
+	'../../src/img/big/handMade7.jpg',
+	'../../src/img/big/handMade8.jpg',
+	'../../src/img/big/handMade9.jpg',
+	'../../src/img/big/handMade10.jpg',
+	'../../src/img/big/handMade11.jpg',
+	'../../src/img/big/handMade12.jpg',
+	'../../src/img/big/handMade13.jpg',
+	'../../src/img/big/handMade14.jpg',
+	'../../src/img/big/handMade15.jpg',
+	'../../src/img/big/handMade16.jpg',
+	'../../src/img/big/handMade17.jpg',
+	'../../src/img/big/handMade18.jpg',
+	'../../src/img/big/handMade19.jpg',
+	'../../src/img/big/handMade20.jpg'
 ];
 
 const selectItem = (e) => {
@@ -92,21 +140,6 @@ const selectItem = (e) => {
 	e.target.classList.add('active');
 }
 
-const galleryWrapLeft = () => {
-	let first = gallery.children[0];
-	gallery.removeChild(first);
-	gallery.style.left = -itemWidth + '%';
-	gallery.appendChild(first);
-	gallery.style.left = '0%';
-}
-
-const galleryWrapRight = () => {
-	let last = gallery.children[gallery.children.length - 1];
-	gallery.removeChild(last);
-	gallery.insertBefore(last, gallery.children[0]);
-	gallery.style.left = '-23%';
-}
-
 //Start this baby up
 const init = () => {
 	//Set Initial Featured Image
@@ -117,4 +150,4 @@ const init = () => {
 		galleryItems[i].addEventListener('click', selectItem);
 	}
 };
-export { init, galleryWrapLeft, galleryWrapRight, selectItem };
+export { init, selectItem };
