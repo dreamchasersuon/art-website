@@ -1,5 +1,6 @@
 # art-website
-The website for Contemporary Moscow Artist - Konstantin Rudenko.
+The website for Contemporary Moscow Artist - Konstantin Rudenko. 
+https://website-for-krudenko.herokuapp.com/dist/dev/index.html
 
-Done: Made design, layout and deploy. 
-Tasks: Add styles for media quires; Configure DevServer malware.
+Done: design, layout+scripts, deploy. 
+Tasks: add styles for media quires; configure DevServer malware and production config; improve JS code.
